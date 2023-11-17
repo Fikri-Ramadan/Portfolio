@@ -1,0 +1,47 @@
+.navbar {
+  padding: 0 4rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  letter-spacing: 2px;
+}
+
+.links .icons {
+  font-size: 1.2rem;
+}
+
+.mobile-menu-icons {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 2rem;
+  }
+  
+  .links {
+    display: none;
+  }
+
+  .mobile-menu-icons {
+    display: block;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #222831;
+}
+
+.icons {
+  font-size: 2rem;
+}
