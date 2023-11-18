@@ -102,7 +102,9 @@
   }
 
   .about-left>:nth-child(1) {
-    visibility: hidden;
+    opacity: 0.2;
+    top: -150px;
+    left: -100px;
   }
 
   .about-left :nth-child(2) {
