@@ -37,6 +37,7 @@
   background-color: #393e46;
   border-radius: 10px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .project-img-container {
@@ -92,6 +93,14 @@
   
   .project-container {
     grid-template-columns: 1fr;
+  }
+
+  .project-item {
+    max-width: 25rem;
+  }
+
+  .project-description .description {
+    padding-top: 1rem;
   }
 
   #vector1 {

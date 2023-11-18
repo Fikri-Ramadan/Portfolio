@@ -24,21 +24,17 @@
   font-size: 1.2rem;
 }
 
-.mobile-menu-icons {
-  display: none;
-}
-
 @media (max-width: 768px) {
   .navbar {
     padding: 0 2rem;
   }
-  
+
   .links {
-    display: none;
+    gap: 1rem;
   }
 
-  .mobile-menu-icons {
-    display: block;
+  .link {
+    display: none;
   }
 
   .logo {
