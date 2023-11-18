@@ -40,6 +40,10 @@
   margin: 0 auto;
 }
 
+.project-item:hover, .project-item:active {
+  opacity: 0.8;
+}
+
 .project-img-container {
   width: 100%;
 }

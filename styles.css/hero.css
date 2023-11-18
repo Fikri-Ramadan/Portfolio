@@ -40,6 +40,10 @@
   letter-spacing: 2px;
 }
 
+.button:hover, .button:active {
+  opacity: 0.9;
+}
+
 .vector {
   width: 7rem;
   position: absolute;
