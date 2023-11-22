@@ -2,12 +2,12 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id='about'>
       <div className="about-left">
-        <img src="./src/assets/Vector 67.svg" className="about-vector" alt="" />
-        <img src="./src/assets/lightbulb.svg" className="about-vector" alt="" />
+        <img src="./Vector 67.svg" className="about-vector" alt="" />
+        <img src="./lightbulb.svg" className="about-vector" alt="" />
         <img
-          src="./src/assets/Vector 186.svg"
+          src="./Vector 186.svg"
           className="about-vector"
           alt=""
         />
@@ -32,8 +32,8 @@ const About = () => {
 
       <div className="about-right">
         <div className="vector-container">
-          <img src="./src/assets/doodles mixed round.svg" alt="" />
-          <img src="./src/assets/Group 62.svg" alt="" />
+          <img src="./doodles mixed round.svg" alt="" />
+          <img src="./Group 62.svg" alt="" />
         </div>
       </div>
     </div>

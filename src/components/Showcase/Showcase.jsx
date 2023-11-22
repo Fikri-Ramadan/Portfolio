@@ -2,9 +2,9 @@ import './Showcase.css';
 
 const Showcase = () => {
   return (
-    <div className="project">
+    <div className="project" id='project'>
       <img
-        src="./src/assets/deadlines.svg"
+        src="./deadlines.svg"
         className="project-vector"
         id="vector1"
         alt=""
@@ -20,7 +20,7 @@ const Showcase = () => {
         >
           <div className="project-item">
             <div className="project-img-container">
-              <img src="./src/assets/job-tracker.png" alt="" />
+              <img src="./job-tracker.png" alt="" />
               <div className="project-description">
                 <p className="title">Job Tracker</p>
                 <p className="tech">
@@ -38,7 +38,7 @@ const Showcase = () => {
         <a href="https://techinfo.vercel.app" target="_blank" rel="noreferrer">
           <div className="project-item">
             <div className="project-img-container">
-              <img src="./src/assets/tech-info.png" alt="" />
+              <img src="./tech-info.png" alt="" />
               <div className="project-description">
                 <p className="title">Tech Info</p>
                 <p className="tech">Tech: NextJS, MongoDB, Prisma, NextAuth</p>
@@ -58,7 +58,7 @@ const Showcase = () => {
         >
           <div className="project-item">
             <div className="project-img-container">
-              <img src="./src/assets/real-estate.png" alt="" />
+              <img src="./real-estate.png" alt="" />
               <div className="project-description">
                 <p className="title">Real Estate</p>
                 <p className="tech">
