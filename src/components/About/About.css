@@ -92,7 +92,7 @@
   .about-right {
     position: absolute;
     top: 500px;
-    right: 0;
+    right: 20px;
   }
 
   .vector-container {
@@ -102,6 +102,10 @@
 
   .about-vector {
     width: 10rem;
+  }
+
+  .about-left {
+    position: relative;
   }
 
   .about-left .title {
